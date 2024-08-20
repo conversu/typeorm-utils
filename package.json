@@ -1,0 +1,34 @@
+{
+  "name": "@conversu/typeorm-utils",
+  "version": "1.0.0",
+  "description": "Typeorm tool set",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conversu/typeorm-utils.git"
+  },
+  "keywords": [
+    "typeorm",
+    "tools"
+  ],
+  "author": "Pablo Woinarovicz Ramos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conversu/typeorm-utils/issues"
+  },
+  "homepage": "https://github.com/conversu/typeorm-utils#readme",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "node": "^22.6.0",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^22.4.1"
+  }
+}
